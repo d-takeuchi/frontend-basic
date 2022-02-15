@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+div span {
+  color: olive;
+}
+
+div span:first-child {
+  color: purple;
+}
+
+div span:last-child {
+  color: gold;
+}
+/*# sourceMappingURL=style.css.map */

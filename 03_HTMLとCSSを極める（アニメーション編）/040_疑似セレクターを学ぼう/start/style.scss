@@ -1,0 +1,40 @@
+// a{
+//     color: orange;
+
+//     &:visited{
+//         color: blue;
+//     }
+
+//     &:focus{
+//         color: red  ;
+//     }
+
+//     &:active{
+//         color: purple;
+//     }
+// }
+
+
+div{
+    & span{
+        color: olive;
+
+        // &:nth-last-child(2){
+        //     color: black;
+        // }
+
+        &:first-child{
+            color: purple;
+        }
+
+        &:last-child{
+            color: gold;
+        }
+
+        // &:not(){
+
+        // }
+    }
+
+
+}
